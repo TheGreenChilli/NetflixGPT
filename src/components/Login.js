@@ -13,7 +13,6 @@ import { addUser } from "../utils/userSlice";
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
-
   const dispatch = useDispatch();
 
   const name = useRef(null);
@@ -105,6 +104,7 @@ const Login = () => {
         <h1 className="font-bold text-3xl py-4">
           {isSignInForm ? "Sign In" : "Sign Up"}
         </h1>
+        
         {!isSignInForm && (
           <input
             ref={name}
