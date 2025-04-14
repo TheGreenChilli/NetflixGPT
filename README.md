@@ -18,6 +18,7 @@
 - BugFix: Sign up user display and profile picture update
 - BugFix: If the user is not logged in Redirect /browse to Login Page and vice-verse
 - Unsubscribed to the onAuthStateChanged callback
+- Add harcoded values to the constants file
 
 
 # Features
