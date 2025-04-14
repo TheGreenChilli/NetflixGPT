@@ -14,8 +14,9 @@
 - Implement Sign In user Api
 - Created Redux Store with userSlice
 - Implemented Sign Out
-- Updated Profile
-
+- Update Profile
+- BugFix: Sign up user display and profile picture update
+- BugFix: If the user is not logged in Redirect /browse to Login Page and vice-verse
 
 
 # Features
